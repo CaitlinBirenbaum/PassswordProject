@@ -1,4 +1,3 @@
-// Assignment Code
 // User input variables: 
 var enter;
 var confirmNumber;
