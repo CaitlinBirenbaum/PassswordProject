@@ -35,7 +35,7 @@ function generatePassword() {
     enter = parseInt(prompt("How many characters would you like your password? Choose between 8 and 128"));
     // First if statement for user validation 
     if (!enter) {
-        alert("This needs a value");
+        alert("Your password needs more values!");
     } else if (enter < 8 || enter > 128) {
         // Validates user input
         // Start user input prompts
